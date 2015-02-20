@@ -1,0 +1,192 @@
+body {
+	font-family: 'Roboto Condensed', serif;
+	font-size:16px;
+}
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+.navbar {
+	height:80px;
+	background-image:none;
+	background-color:white;
+	border-bottom:1px solid #E8E8E8;
+	font-family: 'Amatic SC', sans-serif;
+	font-size:26px;
+}
+
+.navbar-toggle {
+	background-color:#0AB593;
+	margin-top:20px;
+	padding:15px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color:white;
+}
+
+.navbar-brand, .navbar-inverse .navbar-nav > li > a {
+	text-shadow:none;
+}
+
+.navbar-nav>li>a {
+	color:#858587;
+}
+
+.nav>li>a {
+	padding:0;
+	margin:20px;
+	margin-top:45px;
+}
+
+#login-btn {
+	margin-top:20px;
+}
+
+@media (min-width: 600px) and (max-width:1000px) {
+	#login-btn {
+		display:none;
+	}
+
+ }
+
+
+.active a {
+	background-color:#FFF696;
+}
+
+.navbar-brand img {
+	height:60px;
+	margin-top:-5px;
+}
+
+.custom-btn-cta {
+    background-color:#0AB593;
+    padding: 4px 30px;
+      border-radius: 2px;
+    -moz-border-radius:2px;
+    color:white;
+    border:none;
+	font-size:26px;
+	
+}
+
+
+/* Home */
+
+.padding-bump {
+	padding-top:12px;
+}
+
+.splash-img img {
+	width:100%;
+}
+
+.splash-text {
+	padding-top:10px;
+	font-family: 'Roboto Condensed';
+	font-size:32px;
+}
+
+.splash-text-small {
+	font-family: 'Roboto Condensed';
+	font-size:20px;
+    color:#0AB593;
+	
+}
+
+h2 {
+	font-family: 'Amatic SC';
+	font-weight:bold;
+	color:#858587;
+	font-weight:300;
+	
+}
+
+
+.banner {
+	font-family: 'Roboto Condensed';
+}
+
+/* our story */
+
+.first-row {
+	margin-top:70px;
+}
+
+.h1, .h2, .h3 {
+	color:white;
+	background-color:#333;
+	font-size:36px;
+	line-height:150%;
+}
+
+.h1 {
+	font-weight:700;
+}
+
+.h2 {
+	font-weight:400;
+}
+
+.h3 {
+	font-weight:300;
+}
+
+.profile-img {
+	width:100%;
+	margin-bottom:16px;
+}
+
+/* communities */
+
+.full-img {
+	width:90%;
+}
+
+/* story */
+
+.half-img {
+	width:80%;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	vertical-align:middle;
+	padding-top:20px;
+}
+
+p {
+	margin-top:10px;
+}
+
+.founder-name {
+	font-weight:700;
+	font-size:20px;
+}
+
+/* press */
+.press {
+	margin-bottom:20px;
+}
+
+.press-date {
+	font-size:14px;
+	font-weight:700;
+}
+
+.press-source {
+	font-weight:700;
+	font-size:20px;
+}
+
+.press-preview {
+	font-size:24px;
+	font-weight:300;
+}
+
+/* footer */
+
+#social-media {
+	text-align:right;
+}
