@@ -75,6 +75,12 @@ body {
 
 /* Home */
 
+iframe {
+	display:block;
+	margin: 0 auto;
+	text-align:center;
+}
+
 .padding-bump {
 	padding-top:12px;
 }
